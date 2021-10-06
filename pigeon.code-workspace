@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "name": "Extension",
+            "path": "Extension"
+        },
+        {
+            "name": "API",
+            "path": "API"
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "ASPNETCORE",
+            "Npgsql",
+            "Rgba",
+            "webextensions"
+        ]
+    }
+}
