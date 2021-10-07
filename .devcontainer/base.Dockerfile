@@ -26,7 +26,7 @@ RUN bash /tmp/library-scripts/node-debian.sh "${NVM_DIR}" "lts/*" "${USERNAME}"
 RUN npm install --global yarn
 
 # install any other tools I want
-RUN apt-get install -y tree coreutils
+RUN apt-get install -y tree coreutils vim
 
 # clean up cache
 RUN apt-get clean -y && rm -rf /var/lib/apt/lists/*
