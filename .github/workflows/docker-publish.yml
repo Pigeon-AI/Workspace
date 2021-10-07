@@ -32,8 +32,8 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push massif-visualizer
-        working-directory: ./.devcontainer
         uses: docker/build-push-action@v2
+        working-directory: ./.devcontainer
         with:
           push: true
           file: base.Dockerfile
